@@ -1,0 +1,32 @@
+# Secrets & environment
+.env
+.env.*
+*.pem
+*-credentials.json
+service-account*.json
+secrets/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+
+# Tooling
+.uv/
+.mypy_cache/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs & local data
+*.log
+*.sqlite
+*.db
+local_data/
